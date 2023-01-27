@@ -1,0 +1,9 @@
+.bg-login-image {
+    background: url(../../images/logIn-image.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.remember-me-label,.msg-modal,.msg-modal-title {
+    color: #000;
+}

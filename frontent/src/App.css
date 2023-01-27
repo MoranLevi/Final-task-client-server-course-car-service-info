@@ -1,0 +1,26 @@
+:root {
+  --clr-text-primary: white;
+}
+
+body,
+h1,
+h2,
+h3 {
+  font-family: Arial;
+  text-align: center;
+  color: var(--clr-text-primary);
+}
+
+header {
+  font-size: calc(15px + 1.5vw);
+}
+
+h1,
+h2,
+h3 {
+  font-size: calc(5px + 1vw);
+}
+
+#App {
+  min-height: 100vh;
+}

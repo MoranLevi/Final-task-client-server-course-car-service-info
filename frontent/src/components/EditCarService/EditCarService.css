@@ -1,0 +1,8 @@
+.bg-edit-car-service-image {
+    background: url(../../images/editCarService-image.png);
+    background-position: center;
+    background-size: cover;
+}
+.msg-modal,.msg-modal-title{
+    color: black;
+}

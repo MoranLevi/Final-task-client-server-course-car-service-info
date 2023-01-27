@@ -1,0 +1,67 @@
+.table-container {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+  
+.table-container table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: 0;
+    text-align: center;
+}
+  
+.table-container th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    border-bottom: var(--table-row-separator-width) var(--table-row-separator-style) var(--table-row-separator-color);
+    color: var(--clr-white);
+}
+  
+.table-container td,
+.table-container th {
+    padding: 8px;
+}
+  
+.table-container td {
+    border-bottom: var(--table-row-separator-width) var(--table-row-separator-style)
+      var(--table-row-separator-color);
+}
+  
+.table-container tr:hover {
+    background-color: var(--table-row-background-color-hover);
+}
+
+.table-filter-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 1rem;
+}
+
+.paging-data-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.total-number-of-records {
+    width: 100%;
+    height: 100%;
+    text-align: start !important;
+}
+
+.paging-data-buttons {
+    width: 100%;
+    height: 100%;
+    text-align: end !important;
+}
+  

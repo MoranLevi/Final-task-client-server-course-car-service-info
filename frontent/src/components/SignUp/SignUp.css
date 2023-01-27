@@ -1,0 +1,23 @@
+.bg-register-image {
+    background: url(../../images/signUp-image.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.error-msg {
+    color: red; 
+}
+.msg-modal,.msg-modal-title{
+    color: black;
+}
+.space {
+    margin-bottom: 16.5px;
+}
+
+.space2 {
+    margin-bottom: 16px;
+}
+
+.margin-bottom-ReCAPTCHA {
+    margin-bottom: 20px;
+}

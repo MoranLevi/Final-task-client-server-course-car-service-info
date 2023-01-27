@@ -1,0 +1,23 @@
+.button-image {
+    border: none;
+    background: none;
+}
+
+.button-image:hover {
+    background-color: rgb(174, 174, 231);
+    border-radius: 10px;
+}
+
+.link-log-out {
+    text-decoration: underline;
+    color: blue;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    align-self: center;
+}
+
+.link-log-out:hover {
+    text-decoration: underline;
+    color: red;
+}
