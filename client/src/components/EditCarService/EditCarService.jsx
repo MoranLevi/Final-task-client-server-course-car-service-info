@@ -84,7 +84,7 @@ const EditCarService = () => {
     };
 
     return (
-        <div className="container">
+        <div className="container p-3">
 
             <div className="card o-hidden border-0 shadow-lg my-5">
                 <div className="card-body p-0">

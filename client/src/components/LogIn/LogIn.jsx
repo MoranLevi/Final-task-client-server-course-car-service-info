@@ -53,7 +53,6 @@ const LogIn = () => {
 
 
     /* function that navigates to the dashboard page */
-
     const handleClickDashboard = () => {
         navigate('/dashboard');
     };
@@ -144,7 +143,7 @@ const LogIn = () => {
     
     return (
         
-        <div className="container">
+        <div className="container p-3">
 
             <div className="row justify-content-center">
                 <div className="col-xl-10 col-lg-12 col-md-9">
@@ -153,7 +152,7 @@ const LogIn = () => {
                             <div className="row">
                                 <div className="col-lg-6 d-none d-lg-block bg-login-image"></div>
                                 <div className="col-lg-6">
-                                    <div className="p-3">
+                                    <div className="p-2">
                                         <div className="text-center">
                                             <h1 className="h4 text-gray-900 mb-4">Welcome Back!</h1>
                                         </div>

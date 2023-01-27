@@ -22,5 +22,5 @@ h3 {
 }
 
 #App {
-  min-height: 100vh;
+  display: flex;
 }
