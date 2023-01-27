@@ -11,7 +11,7 @@ const AboutUs = () => {
         <div className='aboutUs-backgroundimg'>
             <div className='aboutUs-details-container'>
                 {/* Card component from react-bootstrap library with data about the founders of the site */}
-                <Card style={{width: '100%', color: 'black', background: 'rgba(192, 192, 192, 1)'}} >
+                <Card className='about-us-card' >
                     <Card.Body>
                         <h4><b>Ort Braude - Client and Server Technologies Course 2023</b></h4>
                         <h3 style= {{color: 'black'}}>Website to manage Car Service Information</h3>
@@ -20,7 +20,7 @@ const AboutUs = () => {
                     </Card.Body>
                 </Card>
                 {/* Card component from react-bootstrap library with data about the site's offers */}
-                <Card style={{width: '100%', color: 'black', background: 'rgba(192, 192, 192, 1)'}} >
+                <Card className='about-us-card' >
                     <Card.Body>
                     <h4><b>What we offer?</b></h4>
                     Web application to manage car service information, such as: save, update and delete treatments date of cars that comes for treatment.
