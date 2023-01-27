@@ -215,7 +215,7 @@ app.post('/forgotPassword', (req, res) => {
                 from:'clientServerCourse@hotmail.com',
                 to: req.body.email,
                 subject: 'Reset Password',
-                text: 'Hello,\nEnter the following link to reset password:\nhttp://localhost:3000/#/resetPassword'
+                text: 'Hello,\nEnter the following link to reset password:\nhttp://car-services-app.herokuapp.com/#/resetPassword'
             };
 
             transporter.sendMail(mailOptions, function(err,info){
