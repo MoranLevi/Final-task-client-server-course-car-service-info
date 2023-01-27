@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9dc64838.css",
+    "main.js": "/static/js/main.97f12cdd.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/home-background.png": "/static/media/home-background.5bc1ed0db5e55833eaeb.png",
+    "static/media/editCarService-image.png": "/static/media/editCarService-image.0fee1abfea320ae9ce0c.png",
+    "static/media/resetPassword-image.png": "/static/media/resetPassword-image.0d11c7c55919a24d6d85.png",
+    "static/media/addNewCarService-image.png": "/static/media/addNewCarService-image.35a60f2391d0f6537bf1.png",
+    "static/media/signUp-image.png": "/static/media/signUp-image.ded5b2ef03d1955432ac.png",
+    "static/media/error-404-image.png": "/static/media/error-404-image.0cac1b647dff3b290a4a.png",
+    "static/media/forgotPassword-image.png": "/static/media/forgotPassword-image.49412c4ff480ee3da1ed.png",
+    "static/media/logIn-image.png": "/static/media/logIn-image.b78ab081d59d01b4de70.png",
+    "static/media/profile-icon.png": "/static/media/profile-icon.bc022cba7057e04f8264.png",
+    "static/media/edit-car-image.png": "/static/media/edit-car-image.866a2a913c88e03bfeeb.png",
+    "static/media/delete-car-image.png": "/static/media/delete-car-image.ae359a765e1338abd8b2.png",
+    "index.html": "/index.html",
+    "main.9dc64838.css.map": "/static/css/main.9dc64838.css.map",
+    "main.97f12cdd.js.map": "/static/js/main.97f12cdd.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dc64838.css",
+    "static/js/main.97f12cdd.js"
+  ]
+}
