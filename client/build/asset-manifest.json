@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.17d08a80.css",
+    "main.css": "/static/css/main.c738d35a.css",
     "main.js": "/static/js/main.d2792be1.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/home-background.png": "/static/media/home-background.5bc1ed0db5e55833eaeb.png",
+    "static/media/home-background.png": "/static/media/home-background.a368965e0e83ac9b82a0.png",
     "static/media/editCarService-image.png": "/static/media/editCarService-image.0fee1abfea320ae9ce0c.png",
     "static/media/resetPassword-image.png": "/static/media/resetPassword-image.0d11c7c55919a24d6d85.png",
     "static/media/addNewCarService-image.png": "/static/media/addNewCarService-image.35a60f2391d0f6537bf1.png",
@@ -15,12 +15,12 @@
     "static/media/edit-car-image.png": "/static/media/edit-car-image.866a2a913c88e03bfeeb.png",
     "static/media/delete-car-image.png": "/static/media/delete-car-image.ae359a765e1338abd8b2.png",
     "index.html": "/index.html",
-    "main.17d08a80.css.map": "/static/css/main.17d08a80.css.map",
+    "main.c738d35a.css.map": "/static/css/main.c738d35a.css.map",
     "main.d2792be1.js.map": "/static/js/main.d2792be1.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17d08a80.css",
+    "static/css/main.c738d35a.css",
     "static/js/main.d2792be1.js"
   ]
 }
