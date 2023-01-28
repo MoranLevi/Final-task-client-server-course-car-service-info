@@ -31,7 +31,7 @@ const Dashboard = () => {
             const response = await fetch('/getCarsData'); /* send request to the server */
             const json = await response.json(); /* get the response from the server */
             setCarsTableData(json); /* save the cars data in the carsTableData state */
-            console.log(json);
+            console.log("Received data:", json);
         }
         fetchData();
 

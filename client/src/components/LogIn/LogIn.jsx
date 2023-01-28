@@ -15,6 +15,7 @@ const LogIn = () => {
     const [rememberMe, setRememberMe] = useState(0);/* define state for the remember me checkbox */
     const [showModal, setShow] = useState(false);/*define state for the modal box */
     const [msgModal, setMsgModal] = useState('');/*define state for the message modal box */
+    const [isClickRecaptcha, setIsClickRecaptcha] = useState(false);/* define state for the recaptcha click */
     const captchaRef = useRef(null); /* define ref for the captcha */
 
 
@@ -30,7 +31,13 @@ const LogIn = () => {
             }
         }
       }, []); // Only run this effect once
-      
+    
+    /* function that handle the change of the recapcha */
+    const handleChangeRecaptcha = () => {
+        console.log("click recaptcha");
+        setIsClickRecaptcha(true); /* set the recaptcha click state to true */
+    }
+
 	/* function that close the modal and reset the message modal*/
     const handleClose = () =>{
          setShow(false);
@@ -76,6 +83,14 @@ const LogIn = () => {
         /* if the session is not stored */
 
         /* check if the recaptcha is valid */
+
+        /* check if the recaptcha is valid */
+        if (!isClickRecaptcha) {
+            setMsgModal('Please verify that you are not a robot');
+            handleShow();
+            return;
+        }
+
         const token = captchaRef.current.getValue();
         captchaRef.current.reset();
 
@@ -178,6 +193,7 @@ const LogIn = () => {
                                             <center className='margin-bottom-ReCAPTCHA'><ReCAPTCHA /* ReCAPTCHA component */
                                                 sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
                                                 ref={captchaRef}
+                                                onChange={handleChangeRecaptcha}
                                             /></center>
                                             <input type="submit" className="btn btn-primary btn-user btn-block" value={'Login'}></input>
                                             <hr/>

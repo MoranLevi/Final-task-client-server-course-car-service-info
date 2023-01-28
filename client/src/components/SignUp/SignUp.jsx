@@ -16,7 +16,14 @@ const SignUp = () => {
     const navigate = useNavigate(); /* define hook to navigate to other pages */
     const [showModal, setShow] = useState(false);/*define state for the modal box */
     const [msgModal, setMsgModal] = useState('');/*define state for the message modal box */
+    const [isClickRecaptcha, setIsClickRecaptcha] = useState(false);/* define state for the recaptcha click */
     const captchaRef = useRef(null); /* define ref for the reCAPTCHA */
+    
+    /* function that handle the change of the recapcha */
+    const handleChangeRecaptcha = () => {
+        console.log("click recaptcha");
+        setIsClickRecaptcha(true); /* set the recaptcha click state to true */
+    }
     
     /* function that close the modal and reset the message modal*/
     const handleClose = () =>{
@@ -48,6 +55,14 @@ const SignUp = () => {
         e.preventDefault();
 
         /* get the token from the reCAPTCHA */
+
+        /* check if the recaptcha is valid */
+        if (!isClickRecaptcha) {
+            setMsgModal('Please verify that you are not a robot');
+            handleShow();
+            return;
+        }
+        
         const token = captchaRef.current.getValue();
         captchaRef.current.reset();
 
@@ -147,6 +162,7 @@ const SignUp = () => {
                                     <center className='margin-bottom-ReCAPTCHA'><ReCAPTCHA /* display the reCAPTCHA */
                                         sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
                                         ref={captchaRef}
+                                        onChange={handleChangeRecaptcha}
                                     /></center>
                                     <input type="submit" className="btn btn-primary btn-user btn-block" value={'Register Account'}></input> 
                                 </form>
